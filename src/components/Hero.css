@@ -1,0 +1,17 @@
+.img-containerfor{
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+}
+.img-containerfor img{
+    top: 10px;
+    filter: brightness(70%);
+    position: relative;
+    mix-blend-mode:lighten;
+    
+}
+/* CSS for .gradient-circle */
+
+

@@ -1,0 +1,52 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Experience from './components/Experience';
+import Technologies from './components/Technologies';
+import Projects from './components/Projects';
+import Form from './components/Form';
+import ErrorPage from './components/ErrorPage'; // Import your Error Component
+import './App.css';
+
+function App() {
+  return (
+    <Router>
+      <div className="overflow-x-hidden">
+        {/* Background and Styling */}
+        <div className="bg fixed -z-10 top-0 w-full h-full">
+          <div className="absolute top-0 h-full w-full h-screen bg-slate-950 z-0">
+            <div className="gradient-circle left-[-10%] top-[-10%]" />
+            <div className="gradient-circle right-[-5%] top-[50%]" />
+          </div>
+        </div>
+
+        {/* Main Router Configuration */}
+        <div className="relative z-10">
+          <Routes>
+            {/* All Components in the Home Route */}
+            <Route
+              path="/"
+              element={
+                <>
+                  <Navbar />
+                  <Hero />
+                  <About />
+                  <Technologies />
+                  <Experience />
+                  <Projects />
+                  <Form />
+                </>
+              }
+            />
+            {/* Error Route */}
+            <Route path="*" element={<ErrorPage />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
+  );
+}
+
+export default App;

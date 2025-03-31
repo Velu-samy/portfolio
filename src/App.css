@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+.icon-container a:hover{
+  color:"red";
+}
+.social-conatiner{
+  margin: 80px;
+}
+/* Hero.css */
+.gradient-circle {
+  height: 500px;  /* Size of the circles */
+  width: 500px;   /* Size of the circles */
+  border-radius: 50%;
+  background: radial-gradient(circle farthest-side, rgba(255, 0, 182, 0.15), rgba(255, 255, 255, 0));
+  position: absolute;
+  z-index: -1;    /* Ensure the circles stay in the background */
+  bottom: 0;      /* Make sure the circles are at the bottom of the container */
+}
+html{
+  scroll-behavior: smooth;
+}
