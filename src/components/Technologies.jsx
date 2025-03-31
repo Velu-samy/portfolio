@@ -22,7 +22,7 @@ const variants = (duration) =>(
 
 function Technologies() {
   return (
-    <div className="tech overflow-hidden  p-10 px-20">
+    <div className="tech overflow-hidden p-10 lg:p-10 lg:px-20">
           <div className="icon-contrainer border-b   border-b-zinc-600  mb-10 ">
         <motion.h2 whileInView={{opacity:1,y:0}} 
         initial={{opacity:0,y:-50}}

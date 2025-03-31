@@ -22,12 +22,12 @@ function Hero() {
     transition={{duration:0.8,delay:2}}     
     className='mt-2 mx-2 text-base  lg:text-start text-center mt-5 '>Designing responsive websites that prioritize user-friendliness. Dedicated to crafting seamless, intuitive experiences across all devices.</motion.p>
    </div>
-   <div className="img-container   col-2 w-1/2 flex justify-center items-center border-solid border-white">
+   <div className="img-container w-full  col-2    lg:w-1/2 flex justify-center items-center border-solid border-white">
    <motion.div  initial={{x:100,opacity:0}}
     animate={{x:0,opacity:1}}
     transition={{duration:0.8,delay:2.5}}   className="img-containerfor">
    <img   
-     className='w-80 '  src={img} alt="" />
+     className='  w-60 lg:w-80 '  src={img} alt="" />
      </motion.div>
    </div>
    </div>

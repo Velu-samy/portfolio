@@ -12,7 +12,7 @@ function About() {
     transition={{duration:0.8,delay:0.3}} className='text-center text-5xl text-neutral-400 '> About </motion.h1>
       <div className="row flex  flex-col  lg:flex-row  justify-center  items-center  lg:p-20 " >
         <div className="col-1   w-full   lg:w-1/2 flex justify-center">
-          <motion.img   whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.8, delay:0.5}}     src={illu}  className='w-80  mt-10  '    alt="" />
+          <motion.img   whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.8, delay:0.5}}     src={illu}  className='w-64  lg:w-80  mt-10  '    alt="" />
         </div>
         <div className="col-2   w-full  lg:w-1/2 flex justify-center mt-5 lg:p-4">
         < motion.p whileInView={{opacity:1,x:0}} 
