@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
+import resume from '../asstes/velusamy M -softwaredevloper.pdf';
 
 function Form() {
   const [values, setValues] = useState({
@@ -78,6 +79,16 @@ function Form() {
               <MdLocationOn className="text-pink-500 text-2xl" />
               <p className='lg:text-xl'>Chennai, Vadapalani</p>
             </div>
+            <div className="container-tags mt-3 flex gap-2 items-center">
+              <a
+                href={resume}
+                className="border border-pink-400  p-2  lg:p-3 rounded-md bg-slate-900 text-white hover:bg-pink-400 transition-colors"
+                download="Velusamy-M-SoftwareDeveloper"
+              >
+                Download Resume
+              </a>
+            </div>
+
           </motion.div>
         </div>
 
