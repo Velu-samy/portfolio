@@ -107,11 +107,10 @@ const Projects = () => {
               initial={{opacity:0,x:100}}
           transition={{duration:0.8,delay:0.6}}      className="col-2 w-full  lg:w-1/2  mt-3 lg:mt-0">
         <h2 className='font-semibold mb-1'>Luxedrive - A Car Sales Website</h2>
-         
-            <ul className='list-disc  font-sans font-thin text-sm mt-1' >
-  <li>Developed <strong>Luxedrive</strong>, a multi-page car sales website using <strong>React</strong> and <strong>Framer Motion</strong>.</li>
-  <li>Implemented responsive design with advanced <strong>React</strong> concepts.</li>
-  <li>Created a modern platform with smooth animations and user-friendly features.</li>
+        <ul className='list-disc font-sans font-thin text-sm mt-1'>
+  <li>Learned and applied advanced <strong>React</strong> concepts to develop the frontend for <strong>Luxedrive</strong>.</li>
+  <li>Utilized <strong>Framer Motion</strong> to create smooth, responsive animations.</li>
+  <li>Designed a visually appealing, user-friendly, and fully responsive platform.</li>
 </ul>
 
 <div className="tech-con flex  justify-start mt-3 flex-wrap gap-2 opacity-70">
