@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
-import resume from '../asstes/velusamy M -softwaredevloper.pdf';
+import resume from '../asstes/velusamy M - SoftwareDeveloper.pdf';
 
 function Form() {
   const [values, setValues] = useState({
@@ -82,10 +82,10 @@ function Form() {
             <div className="container-tags mt-3 flex gap-2 items-center">
               <a
                 href={resume}
-                className="border border-pink-400  p-2  lg:p-3 rounded-md bg-slate-900 text-white hover:bg-pink-400 transition-colors"
-                download="Velusamy-M-SoftwareDeveloper"
+                className="border border-pink-400    lg:px-5  py-2 rounded-md bg-slate-900 text-white hover:bg-pink-400 transition-colors"
+                download="VelusamyM-SoftwareDeveloper"
               >
-                Download Resume
+               CV Resume
               </a>
             </div>
 
