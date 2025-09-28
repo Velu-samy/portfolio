@@ -37,40 +37,62 @@ const Projects = () => {
         </div>
         </motion.div>
       </div>
-      <div className="row flex  flex-col  lg:flex-row p-5  lg:px-40 font-tittle text-neutral-100 mt-5 items-center">
-        <motion.div   whileInView={{opacity:1,x:0}} 
-              initial={{opacity:0,x:-100}}
-          transition={{duration:0.8,delay:0.6}}    className="col-1 w-full  lg:w-1/2 flex  lg:justify-center">
-          <img  className='w-80 rounded-md border border-transparent hover:border-purple-500' src={cs} alt="" />
-        </motion.div>
-        <motion.div whileInView={{opacity:1,x:0}} 
-              initial={{opacity:0,x:100}}
-          transition={{duration:0.8,delay:0.6}}         className="col-2 w-full  lg:w-1/2  mt-3 lg:mt-0">
-        <h2 className='font-semibold mb-1'>Coffee Shop Website</h2>
-         
-            <ul className='list-disc  font-sans font-thin text-sm mt-1' ><li>
-                
-            Developed a feature-rich coffee shop website with secure user registration and login functionalities, alongside an engaging, interactive interface to showcase coffee products with detailed descriptions.
+     <div className="row flex flex-col lg:flex-row p-5 lg:px-40 font-tittle text-neutral-100 mt-5 items-center">
+  <motion.div
+    whileInView={{ opacity: 1, x: 0 }}
+    initial={{ opacity: 0, x: -100 }}
+    transition={{ duration: 0.8, delay: 0.6 }}
+    className="col-1 w-full lg:w-1/2 flex lg:justify-center"
+  >
+    <img
+      className="w-80 rounded-md border border-transparent hover:border-purple-500"
+      src={cs}
+      alt="Coffee Shop Preview"
+    />
+  </motion.div>
 
-                </li>
-                <li>Implemented responsive design for seamless compatibility across devices and efficient management of user data and product inventory to ensure smooth operations.</li>
-                
-                </ul>
+  <motion.div
+    whileInView={{ opacity: 1, x: 0 }}
+    initial={{ opacity: 0, x: 100 }}
+    transition={{ duration: 0.8, delay: 0.6 }}
+    className="col-2 w-full lg:w-1/2 mt-3 lg:mt-0"
+  >
+    <h2 className="font-semibold mb-1">Coffee Shop Website</h2>
 
-<div className="tech-con flex  justify-start mt-3 flex-wrap gap-2 opacity-70">
-          <p className='mr-3 rounded-sm border-purple-600 text-purple-400 bg-black border p-0.5 px-1.5'>HTML</p>
-          <p className='mr-3 rounded-sm  border-purple-600 text-purple-400 bg-black border p-0.5 px-1.5'>CSS</p>
-          <p className='mr-3 rounded-sm border-purple-600 text-purple-400 bg-black border p-0.5 px-1.5'> Javascript</p>
-          <p className='mr-3 rounded-sm border-purple-600 text-purple-400 bg-black border p-0.5 px-1.5'>PHP</p>
-          <p className='mr-3 rounded-sm border-purple-600 text-purple-400 bg-black border p-0.5 px-1.5'>Mysql Database</p>
+    <ul className="list-disc font-sans font-thin text-sm mt-1">
+      <li>
+        Built a full-stack coffee shop website using Laravel for backend and React with Tailwind CSS for frontend, featuring secure JWT-based authentication and dynamic product display.
+      </li>
+      <li>
+        Integrated responsive design and modular components with Framer Motion for smooth animations, ensuring a seamless user experience across devices.
+      </li>
+    </ul>
 
-        </div>
-        <div className="button-container flex lg:justify-start mt-4 justify-between  lg:gap-80">
-         <a href="https://github.com/Velu-samy/Bean-heaven" className='px-4 py-1 border border-pink-500'>GitHub</a>
-         <a href="https://beanheavencoffeeshop.ct.ws/?i=1" className='px-4 py-1 border border-pink-500'>Live</a>
-        </div>
-        </motion.div>
-      </div>
+    <div className="tech-con flex justify-start mt-3 flex-wrap gap-2 opacity-70">
+      <p className="mr-3 rounded-sm border-purple-600 text-purple-400 bg-black border p-0.5 px-1.5">Laravel</p>
+      <p className="mr-3 rounded-sm border-purple-600 text-purple-400 bg-black border p-0.5 px-1.5">JWT Auth</p>
+      <p className="mr-3 rounded-sm border-purple-600 text-purple-400 bg-black border p-0.5 px-1.5">React</p>
+      <p className="mr-3 rounded-sm border-purple-600 text-purple-400 bg-black border p-0.5 px-1.5">Tailwind CSS</p>
+      <p className="mr-3 rounded-sm border-purple-600 text-purple-400 bg-black border p-0.5 px-1.5">Framer Motion</p>
+      <p className="mr-3 rounded-sm border-purple-600 text-purple-400 bg-black border p-0.5 px-1.5">MySQL</p>
+    </div>
+
+    <div className="button-container flex lg:justify-start mt-4 justify-between lg:gap-80">
+      <a
+        href="https://github.com/Velu-samy/Coffee-shop-backend"
+        className="px-4 py-1 border border-pink-500"
+      >
+        GitHub
+      </a>
+      <a
+        href="https://coffee-shop-frontend-ec6j.vercel.app"
+        className="px-4 py-1 border border-pink-500"
+      >
+        Live
+      </a>
+    </div>
+  </motion.div>
+</div>
       <div className="row flex  flex-col  lg:flex-row p-5  lg:px-40 font-tittle text-neutral-100 mt-5 items-center">
         <motion.div whileInView={{opacity:1,x:0}} 
               initial={{opacity:0,x:-100}}
