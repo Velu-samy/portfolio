@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
-import resume from '../asstes/velusamy M - SoftwareDeveloper.pdf';
+import resume from '../asstes/Velusamy M - SoftwareDeveloper.pdf';
 
 function Form() {
   const [values, setValues] = useState({
