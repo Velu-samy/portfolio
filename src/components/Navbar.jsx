@@ -12,7 +12,7 @@ function Navbar() {
        <motion.div  initial={{y:-100,opacity:0}}
     animate={{y:0,opacity:1}}
     transition={{duration:0.8,delay:0.2}}  className="icon-container flex justify-evenly  text-neutral-300 text-2xl  lg:text-3xl ">
-       <a href="https://www.linkedin.com/in/velusamy--m/"  rel="noopener noreferrer" className='m-2 hover:text-purple-500'>
+       <a href="https://www.linkedin.com/in/velusamymanivannan"  rel="noopener noreferrer" className='m-2 hover:text-purple-500'>
        <FaLinkedin  />
       </a>
       <a href="https://www.instagram.com/itsvetri__?igsh=YnYxd3Q2Nno3ZHQx&utm_source=qr" target="_blank" rel="noopener noreferrer" className='m-2  hover:text-slate-500 '>
